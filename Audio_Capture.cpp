@@ -1,8 +1,9 @@
+//time 2014.3.21
 #include<windows.h>
 #include<stdio.h>
 #include<mmsystem.h>
 #pragma comment(lib,"winmm.lib")
-
+//宏定义
 #define BUFFER_SIZE (44100*16*2/8*30)
 #define FRAGMENT_SIZE 1024
 #define FRAGMENT_NUM  4 
